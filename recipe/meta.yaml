@@ -1,5 +1,5 @@
 {% set name = "python-codon-tables" %}
-{% set version = "0.1.12" %}
+{% set version = "0.1.15" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python_codon_tables-{{ version }}.tar.gz
-  sha256: a733e8479e6753c39b3efd62204e76aa9a83e7119d60b9b5b86de7083e88e3a6
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/python_codon_tables-{{ version }}.tar.gz
+  sha256: 6cad18f32e56eb19ad19e454b4b0c6b20d6fa152a9d6e537eed06a8b4feb68b6
 
 build:
   number: 0
